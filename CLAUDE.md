@@ -34,3 +34,5 @@ Branch naming for features: `feat-<short-description>`
 
 - Upstream repo: https://github.com/microsoft/playwright-cli
 - When syncing with upstream: `git fetch upstream && git rebase upstream/main`
+- Personal fork — primarily used for learning and experimenting with Playwright internals.
+- Run `npm run build` before testing local changes; the CLI is compiled from TypeScript.
